@@ -13,4 +13,8 @@
     {% endfor %}
 </div>
 
+<div class="container">
+    <p><a href="{% url 'basic_app:update' pk=school_detail.pk %}" class="btn btn-warning">Update</a></p>
+</div>
+
 {% endblock %}
